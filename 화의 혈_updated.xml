@@ -17,30 +17,86 @@
       <publicationStmt>
         <publisher>한국학중앙연구원 인문정보학과</publisher>
       </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource" xml:lang="ko">
-          <title level="a">화의 혈</title>
-          <author>이해조</author>
-          <publisher>Wikisource(한국어)</publisher>
-          <idno type="wikisource">https://ko.wikisource.org/wiki/화의_혈</idno>
-          <idno type="wikidata">Q85989161</idno>
-          <idno type="wikidata-url">http://www.wikidata.org/wiki/Q85989161</idno>
-        </bibl>
-        <bibl type="reference" xml:lang="ko">
-          <title level="a">화의 혈</title>
-          <idno type="encykorea-id">E0064844</idno>
-          <idno type="encykorea">https://encykorea.aks.ac.kr/Article/E0064844</idno>
-        </bibl>
-        <bibl type="originalSource" xml:lang="ko">
-          <title level="m">(신쇼셜)화의 혈</title>
-          <author>이해조</author>
-          <publisher>普及書館</publisher>
-          <date>1912</date>
-          <idno type="NLK">CNTS-00047818581</idno>
-          <note type="holding">소장처: 국립중앙도서관</note>
-          <ref target="https://lod.nl.go.kr/home/include/lodpopup.jsp?uri=http://lod.nl.go.kr/resource/CNTS-00047818581">국립중앙도서관 LOD 정보</ref>
-        </bibl>
-      </sourceDesc>
+<sourceDesc>
+    <biblStruct xml:id="digital_edition" type="digitalSource" xml:lang="ko">
+        <analytic>
+            <title level="a">화의 혈</title>
+            <author>이해조</author>
+        </analytic>
+        <monogr>
+            <title>위키문헌(Wikisource)</title>
+            <imprint>
+                <publisher>Wikisource(한국어)</publisher>
+                <date>2023</date>
+            </imprint>
+            <idno type="wikisource">https://ko.wikisource.org/wiki/화의_혈</idno>
+            <idno type="wikidata">Q85989161</idno>
+            <ref target="http://www.wikidata.org/wiki/Q85989161"></ref>
+        </monogr>
+
+        <relatedItem type="source">
+            <biblStruct xml:id="gongu_madang">
+                <monogr>
+                    <title>화의 혈 (공유마당 전자 자료)</title>
+                    <distributor>한국저작권위원회 공유마당</distributor>
+                    </monogr>
+                <idno type="gongu_madang">G905-13313763</idno>
+                <ref target="https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13313763&menuNo=200019">국립중앙도서관</ref>
+               <note type="provenance">위키문헌 텍스트는 공유마당의 전자 텍스트를 입력한 것으로 추정됨.</note>
+                <relatedItem type="original">
+                    <biblStruct xml:id="original_newspaper">
+                        <analytic>
+                            <title level="a">화의 혈</title>
+                            <author>이해조</author>
+                        </analytic>
+                        <monogr>
+                            <title level="j">매일신보(每日申報)</title>
+                            <imprint>
+                                <publisher>매일신보사</publisher>
+                                <date from="1911-04-06" to="1911-06-21">1911년 4월 6일 ~ 6월 21일</date>
+                            </imprint>
+                        </monogr>
+                        <note type="provenance">공유마당의 전자 텍스트는 <매일신보> 연재 자료를 입력했다고 추정됨.</note>
+                        <note>
+                          <ref target="https://www.nl.go.kr/NL/contents/search.do?resultType=&amp;pageNum=1&amp;pageSize=&amp;order=&amp;sort=&amp;srchTarget=&amp;kwd=%ED%99%94%EC%9D%98+%ED%98%88&amp;systemType=&amp;lnbTypeName=&amp;category=&amp;hanjaFlag=&amp;reSrchFlag=&amp;lnbCategory=%EC%8B%A0%EB%AC%B8&amp;licYn=&amp;kdcName1s=&amp;manageName=&amp;langName=&amp;ipubYear=&amp;pubyearName=&amp;seShelfCode=&amp;detailSearch=&amp;seriesName=&amp;mediaCode=&amp;offerDbcode2s=&amp;f1=&amp;v1=&amp;f2=&amp;v2=&amp;f3=&amp;v3=&amp;f4=&amp;v4=&amp;and1=&amp;and2=&amp;and3=&amp;and4=&amp;and5=&amp;and6=&amp;and7=&amp;and8=&amp;and9=&amp;and10=&amp;and11=&amp;and12=&amp;isbnOp=&amp;isbnCode=&amp;guCode2=&amp;guCode3=&amp;guCode4=&amp;guCode5=&amp;guCode6=&amp;guCode7=&amp;guCode8=&amp;guCode11=&amp;gu2=&amp;gu7=&amp;gu8=&amp;gu9=&amp;gu10=&amp;gu12=&amp;gu13=&amp;gu14=&amp;gu15=&amp;gu16=&amp;subject=&amp;sYear=&amp;eYear=&amp;sRegDate=&amp;eRegDate=&amp;typeCode=&amp;acConNo=&amp;acConNoSubject=&amp;acConNoAll=&amp;infoTxt=&amp;siteUrl=&amp;selIcon=list">국립중앙도서관 항목 바로가기(2025.11.20.접속)</ref>
+                        </note>
+                    </biblStruct>
+                </relatedItem>
+            </biblStruct>
+        </relatedItem>
+    </biblStruct>
+
+    <listBibl>
+        <head>국립중앙도서관에서 소장하는 식민지기에 발행된 <화의 혈> 문헌 (Selected Bibliography)</head>
+
+        <biblStruct xml:id="bib_book1">
+            <monogr>
+                <title level="m">(신쇼셜)화의 혈</title>
+                <creator>이해조</creator>
+                <imprint>
+                    <pubPlace>京城</pubPlace>
+                    <publisher>普及書館</publisher>
+                    <date>1912</date>
+                </imprint>
+            </monogr>
+            <idno type="UCI">G701:B-00047818581</idno>
+            <ref target="https://www.nl.go.kr/NL/contents/search.do?resultType=&pageNum=1&pageSize=&order=&sort=&srchTarget=&kwd=%ED%99%94%EC%9D%98+%ED%98%88&systemType=&lnbTypeName=&category=&hanjaFlag=&reSrchFlag=&lnbCategory=%EB%8F%84%EC%84%9C&licYn=&kdcName1s=&manageName=&langName=&ipubYear=&pubyearName=&seShelfCode=&detailSearch=&seriesName=&mediaCode=&offerDbcode2s=&f1=&v1=&f2=&v2=&f3=&v3=&f4=&v4=&and1=&and2=&and3=&and4=&and5=&and6=&and7=&and8=&and9=&and10=&and11=&and12=&isbnOp=&isbnCode=&guCode2=&guCode3=&guCode4=&guCode5=&guCode6=&guCode7=&guCode8=&guCode11=&gu2=&gu7=&gu8=&gu9=&gu10=&gu12=&gu13=&gu14=&gu15=&gu16=&subject=&sYear=&eYear=&sRegDate=&eRegDate=&typeCode=&acConNo=&acConNoSubject=&acConNoAll=&infoTxt=&siteUrl=&selIcon=list#viewKey=CNTS-00047818581&viewType=C&category=%EB%8F%84%EC%84%9C&pageIdx=15&jourId=">국립중앙도서관 항목 바로가기(2025.11.20. 접속)</ref>
+        </biblStruct>
+
+        <biblStruct xml:id="bib_book2">
+            <monogr>
+                <title level="m">花의 血</title>
+                <creator>김용준</creator>
+                <imprint>
+                    <publisher>五車書廠</publisher>
+                    <date>1918</date>
+                </imprint>
+            </monogr>
+            <idno type="UCI">G701:E-00076805822</idno>
+            <ref target="https://www.nl.go.kr/NL/contents/search.do?resultType=&pageNum=1&pageSize=&order=&sort=&srchTarget=&kwd=%ED%99%94%EC%9D%98+%ED%98%88&systemType=&lnbTypeName=&category=&hanjaFlag=&reSrchFlag=&lnbCategory=%EB%8F%84%EC%84%9C&licYn=&kdcName1s=&manageName=&langName=&ipubYear=&pubyearName=&seShelfCode=&detailSearch=&seriesName=&mediaCode=&offerDbcode2s=&f1=&v1=&f2=&v2=&f3=&v3=&f4=&v4=&and1=&and2=&and3=&and4=&and5=&and6=&and7=&and8=&and9=&and10=&and11=&and12=&isbnOp=&isbnCode=&guCode2=&guCode3=&guCode4=&guCode5=&guCode6=&guCode7=&guCode8=&guCode11=&gu2=&gu7=&gu8=&gu9=&gu10=&gu12=&gu13=&gu14=&gu15=&gu16=&subject=&sYear=&eYear=&sRegDate=&eRegDate=&typeCode=&acConNo=&acConNoSubject=&acConNoAll=&infoTxt=&siteUrl=&selIcon=list#viewKey=CNTS-00076805822&viewType=C&category=%EB%8F%84%EC%84%9C&pageIdx=12&jourId=">국립중앙도서관 항목 바로가기(2025.11.20. 접속)</ref>
+        </biblStruct>
+    </listBibl>
+</sourceDesc>
     </fileDesc>
     <encodingDesc>
       <projectDesc>
